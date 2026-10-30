@@ -3,9 +3,9 @@ import matplotlib
 matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 
-img = plt.imread("aravalli_ref.jpg")
-extent = [71.45, 78.49, 22.67, 28.59]
-OUT = "aravalli_lines.geojson"
+img = plt.imread("bundelkhand_ref.jpg")
+extent = [77.69, 81.08, 23.44, 26.53]
+OUT = "bundelkhand_lines.geojson"
 
 data = {"type": "FeatureCollection", "features": []}
 if os.path.exists(OUT):
